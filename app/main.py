@@ -82,7 +82,6 @@ class Vector:
         # Формула повороту
         new_x = self.x * math.cos(radians) - self.y * math.sin(radians)
         new_y = self.x * math.sin(radians) + self.y * math.cos(radians)
-
         return Vector(new_x, new_y)
 
     def __str__(self) -> str:
